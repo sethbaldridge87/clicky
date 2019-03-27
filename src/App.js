@@ -1,28 +1,34 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import Header from "./components/Header/Header";
+import Instructions from "./components/Instructions/Instructions";
+import CharacterSpace from './components/CharacterSpace/CharacterSpace';
+import CharacterCard from './components/CharacterCard/CharacterCard';
+import characters from "./characters.json";
+import "./index.css";
 
 class App extends Component {
+
+  state = {
+    characters
+  };
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="container-flex">
+        <Header />
+        <Instructions />
+        <CharacterSpace>
+          {this.state.characters.map(character => (
+          <CharacterCard
+            id={character.id}
+            name={character.name}
+            image={character.image}
+            />
+          ))}
+        </CharacterSpace>
       </div>
-    );
+      
+    )
   }
 }
-
 export default App;

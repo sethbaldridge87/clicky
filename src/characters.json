@@ -8,5 +8,55 @@
         "id": 2,
         "name": "Sabine",
         "image": "sabine.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Kanan",
+        "image": "kanan.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Hera",
+        "image": "hera.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Zeb",
+        "image": "zeb.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Chopper",
+        "image": "chopper.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "AP-5",
+        "image": "ap-5.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Rukh",
+        "image": "rukh.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Saxon",
+        "image": "saxon.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Grand Inquisitor",
+        "image": "inquisitor.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "Rau",
+        "image": "rau.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "Thrawn",
+        "image": "thrawn.jpeg"
     }
 ]

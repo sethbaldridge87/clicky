@@ -6,6 +6,17 @@ import CharacterCard from './components/CharacterCard/CharacterCard';
 import characters from "./characters.json";
 import "./index.css";
 
+function shuffleArray(array) {
+  let i = array.length - 1;
+  for (; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
+}
+
 class App extends Component {
 
   state = {
@@ -13,12 +24,13 @@ class App extends Component {
   };
 
   render() {
+    const shuffledPosts = shuffleArray(this.state.characters);
     return (
       <div className="container-flex">
         <Header />
         <Instructions />
         <CharacterSpace>
-          {this.state.characters.map(character => (
+          {shuffledPosts.map(character => (
           <CharacterCard
             id={character.id}
             name={character.name}

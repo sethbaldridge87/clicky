@@ -1,3 +1,5 @@
+A click-based memory game, in which the goal is to click on a different character card every time. Built using React.js.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

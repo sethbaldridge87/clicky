@@ -2,61 +2,73 @@
     {
         "id": 1,
         "name": "Ezra",
-        "image": "ezra.jpeg"
+        "image": "ezra.jpeg",
+        "clicked": "false"
     },
     {
         "id": 2,
         "name": "Sabine",
-        "image": "sabine.jpeg"
+        "image": "sabine.jpeg",
+        "clicked": "false"
     },
     {
         "id": 3,
         "name": "Kanan",
-        "image": "kanan.jpeg"
+        "image": "kanan.jpeg",
+        "clicked": "false"
     },
     {
         "id": 4,
         "name": "Hera",
-        "image": "hera.jpeg"
+        "image": "hera.jpeg",
+        "clicked": "false"
     },
     {
         "id": 5,
         "name": "Zeb",
-        "image": "zeb.jpeg"
+        "image": "zeb.jpeg",
+        "clicked": "false"
     },
     {
         "id": 6,
         "name": "Chopper",
-        "image": "chopper.jpeg"
+        "image": "chopper.jpeg",
+        "clicked": "false"
     },
     {
         "id": 7,
         "name": "AP-5",
-        "image": "ap-5.jpeg"
+        "image": "ap-5.jpeg",
+        "clicked": "false"
     },
     {
         "id": 8,
         "name": "Rukh",
-        "image": "rukh.jpeg"
+        "image": "rukh.jpeg",
+        "clicked": "false"
     },
     {
         "id": 9,
         "name": "Saxon",
-        "image": "saxon.jpeg"
+        "image": "saxon.jpeg",
+        "clicked": "false"
     },
     {
         "id": 10,
         "name": "Grand Inquisitor",
-        "image": "inquisitor.jpeg"
+        "image": "inquisitor.jpeg",
+        "clicked": "false"
     },
     {
         "id": 11,
         "name": "Rau",
-        "image": "rau.jpeg"
+        "image": "rau.jpeg",
+        "clicked": "false"
     },
     {
         "id": 12,
         "name": "Thrawn",
-        "image": "thrawn.jpeg"
+        "image": "thrawn.jpeg",
+        "clicked": "false"
     }
 ]

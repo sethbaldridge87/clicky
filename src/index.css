@@ -12,3 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+#scorebox {
+  background-color: green;
+  color: #fff;
+  text-align: right;
+  padding: 20px;
+}

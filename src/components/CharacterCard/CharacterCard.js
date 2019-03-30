@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import "./CharacterCard.css";
 
-class CharacterCard extends Component{
+class CharacterCard extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -10,6 +10,7 @@ class CharacterCard extends Component{
     }
     handleClick = () => {
         this.setState({clicked: "true"});
+        document.getElementById('characterSpace').innerHTML = '';
     };
     render(){
     return <div class="col l3">

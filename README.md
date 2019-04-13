@@ -1,4 +1,10 @@
-A click-based memory game, in which the goal is to click on a different character card every time. Built using React.js.
+A click-based memory game, in which the goal is to click on every character card without clicking on a card more than once. But be careful, the cards shuffle each time you click, so you have to remember carefully which one you clicked!
+
+Created with ReactJS.
+
+![alt text](https://raw.githubusercontent.com/sethbaldridge87/react_click_game/master/clicky1.PNG)
+![alt text](https://raw.githubusercontent.com/sethbaldridge87/react_click_game/master/clicky2.PNG)
+![alt text](https://raw.githubusercontent.com/sethbaldridge87/react_click_game/master/clicky3.PNG)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -2,6 +2,8 @@ A click-based memory game, in which the goal is to click on every character card
 
 Created with ReactJS.
 
+Check it out here: https://star-wars-memory-game.herokuapp.com/
+
 ![alt text](https://raw.githubusercontent.com/sethbaldridge87/react_click_game/master/clicky1.PNG)
 ![alt text](https://raw.githubusercontent.com/sethbaldridge87/react_click_game/master/clicky2.PNG)
 ![alt text](https://raw.githubusercontent.com/sethbaldridge87/react_click_game/master/clicky3.PNG)

@@ -1,3 +1,5 @@
+#React Click Game
+
 A click-based memory game, in which the goal is to click on every character card without clicking on a card more than once. But be careful, the cards shuffle each time you click, so you have to remember carefully which one you clicked!
 
 Technologies used: ReactJS, Materialize
